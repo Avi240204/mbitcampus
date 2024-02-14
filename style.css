@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+#page1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+#nav {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 2vh;
+}
+
+
+#nav-right {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#nav-right li {
+    list-style: none;
+}
+
+.content {
+    width: 100vw;
+    height: 87vh;
+    padding: 15vh 12vh;
+}
+
+#wrappper {
+    width: 75%;
+    height: 30px;
+    background: black;
+}
